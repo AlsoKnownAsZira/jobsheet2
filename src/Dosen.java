@@ -1,5 +1,7 @@
 class Dosen {
-    private String nama;
-    private String nip;
-    private String mataKuliah;
+    public String nama;
+    public String nip;
+    public String mataKuliah;
+
+
 }

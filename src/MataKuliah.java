@@ -1,6 +1,8 @@
 class MataKuliah {
-    private String kodeMataKuliah;
-    private String namaMataKuliah;
-    private String deskripsiMataKuliah;
-    private Dosen dosenPengajar;
+    public String kodeMataKuliah;
+    public String namaMataKuliah;
+    public String deskripsiMataKuliah;
+    public String dosenPengajar;
+
+    public double nilai;
 }

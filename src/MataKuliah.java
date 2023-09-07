@@ -3,6 +3,5 @@ class MataKuliah {
     public String namaMataKuliah;
     public String deskripsiMataKuliah;
     public String dosenPengajar;
-
     public double nilai;
 }

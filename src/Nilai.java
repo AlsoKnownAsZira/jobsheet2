@@ -5,15 +5,18 @@ public class Nilai {
 
 
     public static void main(String[] args) {
+
         Mahasiswa mhs1 = new Mahasiswa();
         mhs1.nim = "111";
         mhs1.nama = "Maman";
         mhs1.jurusan = "Teknik Informatika";
-        mhs1.email = "awkwkwkw@gmail.com";
+        mhs1.email = "maman@polinema.ac.id";
+
         Dosen dosen1 = new Dosen();
-        dosen1.nama = "Dr. Anjay Str.kom";
-        dosen1.nip = "112233";
+        dosen1.nama = "Dr. Irawan Str.kom";
+        dosen1.nip = "2631891028";
         dosen1.mataKuliah = "Basis Data Lanjut";
+
         MataKuliah mtkl1 = new MataKuliah();
         mtkl1.kodeMataKuliah = "TI112";
         mtkl1.namaMataKuliah = dosen1.mataKuliah;
@@ -26,6 +29,4 @@ public class Nilai {
         System.out.println(mtkl1.namaMataKuliah);
         System.out.println(mtkl1.nilai);
     }
-
-
 }

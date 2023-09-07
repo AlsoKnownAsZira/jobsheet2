@@ -2,13 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Nilai {
-    private List<Mahasiswa> daftarMahasiswa;
-    private List<Dosen> daftarDosen;
-    private List<MataKuliah> daftarMataKuliah;
+    Dosen dosen;
+    Mahasiswa mhs;
+    MataKuliah mtkl;
 
-    public Nilai() {
-        daftarMahasiswa = new ArrayList<>();
-        daftarDosen = new ArrayList<>();
-        daftarMataKuliah = new ArrayList<>();
-    }
+   void printNilai(){
+       System.out.println();
+   }
 }
